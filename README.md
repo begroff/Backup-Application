@@ -8,6 +8,7 @@ Performs a backup of a directory containing application files by creating a zip 
 
 - Powershell, Version 5.1.14409.1018 or higher.
 - Pester, Version 4.9.0 or higher (to run unit tests)
+- Windows 10 / Windows Server 2012 or higher
 
 ## Notes
 
