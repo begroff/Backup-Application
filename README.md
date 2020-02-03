@@ -6,7 +6,7 @@ Performs a backup of a directory containing application files by creating a zip 
 
 ## Requirements
 
-- Powershell, Version 5.1.14409.1018 or higher.
+- Powershell, Version 5.1.14409.1018 or higher
 - Pester, Version 4.9.0 or higher (to run unit tests)
 - Windows 10 / Windows Server 2012 or higher
 
@@ -20,13 +20,13 @@ Provide the arguments exclusively
 .\Backup-Application -sourceDirectoryPath "D:\WwwRoot\ApplicationName" -backupDirectoryPath "D:\Backups" -applicationName "ApplicationName"
 ```
 
-Providing the arguments in the correct order
+Provide the arguments in the correct order
 
 ```powershell
 .\Backup-Application "D:\WwwRoot\ApplicationName" "D:\Backups" "ApplicationName"
 ```
 
-Providing the script name and then entering the arguments at the command prompt
+Provide the script name, press Enter, and input the required arguments at the command prompt.
 
 ```powershell
 .\Backup-Application
